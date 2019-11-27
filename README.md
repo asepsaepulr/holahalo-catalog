@@ -17,7 +17,7 @@ $ php artisan key:generate
 ```
 Buatlah Database di Mysql dengan nama 'holahalo_catalog' 
 jika sudah membuatnya lakukan migrasi dengan database seeder nya
-## 'atau import file sql yang telah saya sediakan dan sudah di isi dengan data'
+# 'atau import file sql yang telah saya sediakan dan sudah di isi dengan data'
 
 ### 3. Migrasi
 
@@ -29,7 +29,7 @@ $ php artisan migrate --seed
 ```bash
 $ php artisan serve
 ```
-## setelah itu buka browser anda dan ketikan di url: https://localhost:8000
+# setelah itu buka browser anda dan ketikan di url: https://localhost:8000
 untuk login admin
 e-mail :admin@gmail.com
 pass   :admin123
