@@ -2,10 +2,7 @@
 
 ### 1. git clone
 
-**contoh penggunaan perintah "git clone":**
 ```bash
-$ git clone https://github.com/bantenprov/advancetrust.git
-
-
-$ cd advancetrust/
+$ git clone https://github.com/asepsaepulr/holahalo-catalog.git
 ```
+
