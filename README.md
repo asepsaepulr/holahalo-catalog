@@ -9,9 +9,9 @@ $ composer install
 ```
 ### 2. konfigurasi 
 
-Membuat file .env masukan nama database DB_DATABASE=holahalo_catalog.
+Buatlah file .env masukan nama database DB_DATABASE=holahalo_catalog.
 
-Menambah kan APP_KEY= dengan kode di bawah.
+Menambahkan APP_KEY= dengan kode di bawah.
 
 ```bash
 $ php artisan key:generate
