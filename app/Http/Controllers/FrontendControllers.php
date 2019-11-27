@@ -14,7 +14,8 @@ class FrontendControllers extends Controller
    }
       public function produks(){
         $produks = Produk::orderBy('created_at','desc')->paginate(4);
-        return view('frontend.produk', compact('produks'));
+        $kategori = Kategori::all();
+        return view('frontend.produk', compact('produks','kategori'));
     }
 
       public function produkdetails(Produk $produks){  

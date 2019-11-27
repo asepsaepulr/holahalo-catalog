@@ -12,10 +12,6 @@
 <div class="card-footer text-muted">
 </div>
 </div>
-
-@php
-$kategori = App\kategori::all();
-@endphp
 <div class="container">
     <div class="row">
       <div class="col-md-12">
